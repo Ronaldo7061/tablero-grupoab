@@ -1,0 +1,11 @@
+# Copiar como .gitignore en la raíz del repositorio del tablero.
+# El repositorio solo debe contener index.html (y README). Nunca archivos de captura ni datos de trabajo.
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.json
+!package.json
+~$*
+salida/
+bitacora/
